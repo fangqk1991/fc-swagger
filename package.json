@@ -1,0 +1,38 @@
+{
+  "name": "@fangcha/swagger",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "nyc mocha --require ts-node/register tests/**/*.test.ts --timeout 1000000 --exit",
+    "build": "rm -rf ./lib/ && tsc"
+  },
+  "repository": "https://github.com/fangqk1991/fc-swagger.git",
+  "keywords": [
+    "tools"
+  ],
+  "author": "fang <me@fangqk.com>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@fangcha/eslint": "^0.2.0"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": true,
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "files": [
+    "lib/*",
+    "src/*"
+  ],
+  "nyc": {
+    "sourceMap": false
+  }
+}
