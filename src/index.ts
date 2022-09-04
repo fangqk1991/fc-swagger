@@ -1,4 +1,3 @@
-export * from './HealthApis'
 export * from './SwaggerTypes'
 export * from './SwaggerSchemas'
 export * from './SwaggerUtils'

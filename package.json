@@ -1,6 +1,6 @@
 {
   "name": "@fangcha/swagger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -13,10 +13,11 @@
   ],
   "author": "fang <me@fangqk.com>",
   "license": "MIT",
-  "dependencies": {
-  },
   "devDependencies": {
-    "@fangcha/eslint": "^0.2.0"
+    "@fangcha/eslint": "^0.2.0",
+    "ts-node-dev": "^1.1.8",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.2"
   },
   "prettier": {
     "arrowParens": "always",
